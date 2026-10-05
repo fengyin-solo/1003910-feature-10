@@ -10,6 +10,7 @@ const Threshold = () => import('@/views/threshold/index.vue')
 const Alarm = () => import('@/views/alarm/index.vue')
 const Evacuation = () => import('@/views/evacuation/index.vue')
 const Patrol = () => import('@/views/patrol/index.vue')
+const ClaimDesk = () => import('@/views/claim/index.vue')
 const Engineering = () => import('@/views/engineering/index.vue')
 const Acceptance = () => import('@/views/acceptance/index.vue')
 const Rectification = () => import('@/views/rectification/index.vue')
@@ -33,6 +34,7 @@ const router = createRouter({
     { path: '/alarm', name: 'alarm', component: Alarm },
     { path: '/evacuation', name: 'evacuation', component: Evacuation },
     { path: '/patrol', name: 'patrol', component: Patrol },
+    { path: '/claim-desk', name: 'claim-desk', component: ClaimDesk },
     { path: '/engineering', name: 'engineering', component: Engineering },
     { path: '/acceptance', name: 'acceptance', component: Acceptance },
     { path: '/rectification', name: 'rectification', component: Rectification },
