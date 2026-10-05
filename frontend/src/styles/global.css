@@ -35,3 +35,12 @@ body { margin: 0; background: #f6f8fb; color: #1f2937; }
 .error-text { color: #b42318; }
 .status-legend { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 10px; font-size: 12px; color: var(--muted); }
 .legend-item { background: #eef2f7; border-radius: 999px; padding: 2px 10px; }
+.claim-desk { background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; margin: 12px 0 16px; }
+.claim-desk h2 { margin: 0; font-size: 16px; }
+.identity-bar span { display: block; font-size: 12px; color: var(--muted); }
+.dispatch-bar, .abnormal-form { display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-end; margin: 10px 0; padding: 10px; background: #f2f6fc; border-radius: 6px; font-size: 13px; }
+.dispatch-bar label span, .abnormal-form label span { display: block; font-size: 12px; color: var(--muted); }
+.desk-hint { font-size: 12px; color: var(--muted); margin: 8px 0; }
+.tag { display: inline-block; margin-left: 4px; padding: 0 6px; border-radius: 999px; background: #fff4e5; color: #b45309; font-size: 11px; }
+.ok-text { color: #15803d; font-size: 12px; }
+.assign-select { max-width: 96px; }
